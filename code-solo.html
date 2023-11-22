@@ -1,5 +1,19 @@
 <!DOCTYPE html>
 <html>
+<style>
+  form {
+    padding-left: 189px;
+  }
+
+  img {
+    width: 200px;
+    height: 800px;
+  }
+  h1 {
+    text-align: center;
+    color: brown;
+  }
+</style>
 
 <head>
   <title>Code Solo</title>
@@ -22,6 +36,10 @@
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">Arche</a>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -40,20 +58,44 @@
           <li class="nav-item">
             <a class="nav-link disabled" aria-disabled="true">Disabled</a>
           </li>
-          <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
         </ul>
       </div>
     </div>
   </nav>
   <!-- 3. Copy the HTML code and paste it below. Run your code - what do you see?  -->
-  
+
   <!-- 4. Auto-format your page to clean things up. -->
 
   <!-- 5. Next, in the search bar, type "cards" and press enter. Copy the "Example" HTML and paste below. -->
-  
+  <section>
+    <div id="carouselExample" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://i.pinimg.com/originals/8d/5f/ad/8d5fad31e7e2a88e54635098ba7a25e0.png" class="d-block w-100"
+            alt="...">
+          <div class="opening slide">
+            <h1>WELCOME</h1>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://wallpaperaccess.com/full/3953496.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="https://i.pinimg.com/originals/4d/c7/4e/4dc74eb9874477321599e0f694b9efe1.jpg" class="d-block w-100"
+            alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+
   <!-- 6. Find an image you like from a Google search - put this as the src for the img tag. -->
 
   <!-- 7. Scroll through the side menu and see what else you can add - take a look at the options in the "Components" section.  -->
